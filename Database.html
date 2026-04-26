@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Database Publik</title>
+    <link rel="stylesheet" href="Database.css"> 
+    
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Daftar Tugas Bersama</h2>
+        
+        <div class="input-group">
+            <input type="text" id="taskInput" placeholder="Ketik tugas baru...">
+            <button onclick="addTask()">Tambah</button>
+        </div>
+
+        <ul id="taskList">
+            </ul>
+    </div>
+
+    <script src="Databae.js"></script>
+
+</body>
+</html>
